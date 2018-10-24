@@ -102,6 +102,25 @@ soundManager.setup({
     // This is the "onload" equivalent which is called when SoundManager has been initialised (sounds can be created, etc.)
     mpc.init();
 
+    // Load in meta
+    var soundURLs = 'AMB_BD_1,AMB_FTM2,AMB_HHCL,AMB_HHOP,AMB_HHPD,AMB_HTM,AMB_LTM2,AMB_MTM,AMB_RIM1,AMB_SN13,AMB_SN_5,CHINA_1,CRASH_1,CRASH_5,CRASH_6,RIDE_1'.split(',');
+    for (var i = 0; i < soundURLs.length; i++) {
+      soundManager.createSound({
+        id: 'm' + i,
+        url: 'audio/' + soundURLs[i] + '.mp3'
+      });
+    }
+
+    // Load in Ingr
+    var soundURLs = 'AMB_BD_1,AMB_FTM2,AMB_HHCL,AMB_HHOP,AMB_HHPD,AMB_HTM,AMB_LTM2,AMB_MTM,AMB_RIM1,AMB_SN13,AMB_SN_5,CHINA_1,CRASH_1,CRASH_5,CRASH_6,RIDE_1'.split(',');
+    for (var i = 0; i < soundURLs.length; i++) {
+      soundManager.createSound({
+        id: 'i' + i,
+        url: 'audio/' + soundURLs[i] + '.mp3'
+      });
+    }
+
+        // Load in step
     var soundURLs = 'AMB_BD_1,AMB_FTM2,AMB_HHCL,AMB_HHOP,AMB_HHPD,AMB_HTM,AMB_LTM2,AMB_MTM,AMB_RIM1,AMB_SN13,AMB_SN_5,CHINA_1,CRASH_1,CRASH_5,CRASH_6,RIDE_1'.split(',');
     for (var i = 0; i < soundURLs.length; i++) {
       soundManager.createSound({

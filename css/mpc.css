@@ -51,10 +51,15 @@ body {
  margin-top:20px;
  width:38em;
  _width:37.3em;
- border:3px solid #666;
- border:3px solid rgba(255,255,255,0.25);
+ /*border:3px solid #666;*/
+ /*border:3px solid rgba(255,255,255,0.25);*/
+ box-shadow: 3px 0px 5px 5px rgba(0,0,0,0.2);
  border-radius:12px;
  z-index:2;
+}
+
+.full {
+	width:78em!important;
 }
 
 .mpc h1 {
@@ -75,6 +80,7 @@ body {
  *margin-left:1em;
  _margin-left:2px;
  padding:2px 0px 2px 0px;
+ clear: both;
 }
 
 .mpc ul li {
@@ -82,7 +88,7 @@ body {
  float:left;
  display:inline;
  width:7em;
- height:7em;
+ height:3em;
  margin:0.5em;
  background:#999;
  border:1px solid rgba(0,0,0,0.75);
@@ -94,6 +100,9 @@ body {
  color:#eee;
  text-transform:uppercase;
  font-weight:bold;
+ border-radius: 100px;
+ text-align: center; vertical-align: center;
+ padding-top: 1em;
 }
 
 .mpc ul li span {
