@@ -103,6 +103,11 @@ body {
  padding-top: 1em;
 }
 
+.mpc ul li:hover {
+	box-shadow: 3px 0px 5px 5px rgba(0,0,0,0.1);
+	transition: .3s;
+}
+
 .mpc ul li span {
  text-transform:none;
  font-weight:normal;

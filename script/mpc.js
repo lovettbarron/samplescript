@@ -103,7 +103,7 @@ soundManager.setup({
     mpc.init();
 
     // Load in meta
-    var soundURLs = 'AMB_BD_1,AMB_FTM2,AMB_HHCL,AMB_HHOP,AMB_HHPD,AMB_HTM,AMB_LTM2,AMB_MTM,AMB_RIM1,AMB_SN13,AMB_SN_5,CHINA_1,CRASH_1,CRASH_5,CRASH_6,RIDE_1'.split(',');
+    var soundURLs = 'm0, m1, m2, m3, m4'.split(',');
     for (var i = 0; i < soundURLs.length; i++) {
       soundManager.createSound({
         id: 'm' + i,
@@ -112,7 +112,7 @@ soundManager.setup({
     }
 
     // Load in Ingr
-    var soundURLs = 'AMB_BD_1,AMB_FTM2,AMB_HHCL,AMB_HHOP,AMB_HHPD,AMB_HTM,AMB_LTM2,AMB_MTM,AMB_RIM1,AMB_SN13,AMB_SN_5,CHINA_1,CRASH_1,CRASH_5,CRASH_6,RIDE_1'.split(',');
+    var soundURLs = 'i0, i1, i2, i3, i4, i5, i6, i7, i8, i9, i10, i11, i12, i13, i14, i15, i16, i17, i18, i19, i20, i21, i22,  i23, i24, i25, i26, i27, i28, i29, i30, i31'.split(',');
     for (var i = 0; i < soundURLs.length; i++) {
       soundManager.createSound({
         id: 'i' + i,
@@ -121,7 +121,7 @@ soundManager.setup({
     }
 
         // Load in step
-    var soundURLs = 'AMB_BD_1,AMB_FTM2,AMB_HHCL,AMB_HHOP,AMB_HHPD,AMB_HTM,AMB_LTM2,AMB_MTM,AMB_RIM1,AMB_SN13,AMB_SN_5,CHINA_1,CRASH_1,CRASH_5,CRASH_6,RIDE_1'.split(',');
+    var soundURLs = 's0, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13'.split(',');
     for (var i = 0; i < soundURLs.length; i++) {
       soundManager.createSound({
         id: 's' + i,
