@@ -1,9 +1,9 @@
 /* Demo/example CSS - not needed for general use */
 
 body {
- background:#194470;
+ background:#fefefe;
  font:normal 75% "helvetica neue",helvetica,verdana,arial,tahoma,"times new roman","sans serif";
- color:#fff;
+ color:#340000;
  margin:0px;
  padding:0px;
 }
@@ -19,7 +19,7 @@ body {
 #site {
  position:relative;
  z-index:2;
- background:rgba(0,0,0,0.5);
+ background:rgba(255,154,31,1);
  padding:1em;
 }
 
@@ -52,9 +52,9 @@ body {
  width:38em;
  _width:37.3em;
  /*border:3px solid #666;*/
- /*border:3px solid rgba(255,255,255,0.25);*/
- box-shadow: 3px 0px 5px 5px rgba(0,0,0,0.2);
- border-radius:12px;
+ border:3px solid rgba(255,154,31,1);
+ /*box-shadow: 3px 0px 5px 5px rgba(0,0,0,0.2);*/
+ border-radius:2px;
  z-index:2;
 }
 
@@ -67,10 +67,9 @@ body {
 }
 
 .mpc #wrapper {
- background:#333;
- background:rgba(0,0,0,0.5);
+ background:#fff
  padding:0.5em;
- border-radius:12px;
+ border-radius:5px;
 }
 
 .mpc ul {
@@ -90,17 +89,16 @@ body {
  width:7em;
  height:3em;
  margin:0.5em;
- background:#999;
- border:1px solid rgba(0,0,0,0.75);
+ background: #fff;
+ border:1px solid #340000;
  border-radius:2px;
  font:normal 1em/1em "helvetica",verdana,arial,system;
  padding:0.5em;
  cursor:pointer;
  cursor:hand;
- color:#eee;
+ color:#340000;
  text-transform:uppercase;
  font-weight:bold;
- border-radius: 100px;
  text-align: center; vertical-align: center;
  padding-top: 1em;
 }
@@ -127,7 +125,7 @@ body {
  width:6em;
  background:#888 url(../image/progress.png) no-repeat -256px 0px;
  background-repeat:no-repeat;
- border:1px solid #666;
+ border:1px solid #eee;
  visibility:hidden;
 }
 
