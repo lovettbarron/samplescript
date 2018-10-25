@@ -103,7 +103,7 @@ soundManager.setup({
     mpc.init();
 
     // Load in meta
-    var soundURLs = 'm0, m1, m2, m3, m4'.split(',');
+    var soundURLs = 'm0,m1,m2,m3,m4,m5,m6'.split(',');
     for (var i = 0; i < soundURLs.length; i++) {
       soundManager.createSound({
         id: 'm' + i,
@@ -121,7 +121,7 @@ soundManager.setup({
     }
 
         // Load in step
-    var soundURLs = 's0, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13'.split(',');
+    var soundURLs = 's0,s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,s12,s13'.split(',');
     for (var i = 0; i < soundURLs.length; i++) {
       soundManager.createSound({
         id: 's' + i,
